@@ -338,7 +338,7 @@ def confusion(y_test, y_pred, dir_path, cnt, model_name):
     plt.title('Confusion Matrix')
     plt.xlabel('Predicted Label')
     plt.ylabel('True Label')
-    plt.savefig(os.path.join(dir_path, str(cnt), f"{model_name}_training_curves.png"))
+    plt.savefig(os.path.join(dir_path, str(cnt), f"{model_name}_training_confusion.png"))
     # 显示图形
     plt.show()
 
